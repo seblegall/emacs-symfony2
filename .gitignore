@@ -1,0 +1,14 @@
+/saves/*
+session.*
+temp/*
+tmp/*
+auto-save-list/*
+~*
+*~
+#*
+*#
+tramp
+url/*
+projectile-bookmarks.eld
+projectile.cache
+ac-comphist.dat
