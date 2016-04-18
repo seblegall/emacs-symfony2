@@ -30,10 +30,15 @@
 
 (setq truncate-partial-width-windows nil)
 
+;; KEY BINDING
+;; -----------
+
+(global-set-key (kbd "C-c C-t") 'neotree-toggle) ; Ctrl+c Ctrl+t
 
 ;;THEME CONFIGURATION
 ;;--------------------
-(load-theme 'monokai t)
+(load-theme 'atom-one-dark t)
+;;(load-theme 'monokai t)
 
 
 
@@ -160,3 +165,6 @@
 (require 'git)
 
 
+;; NEOTREE
+;;--------
+(setq projectile-switch-project-action 'neotree-projectile-action)
