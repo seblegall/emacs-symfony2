@@ -20,12 +20,9 @@ cd emacs-symfony2
 ./install.sh
 ```
 
-
 # Emacs configuration
 
-
 Here is the main package and configuration set in this Emacs config :
-
 
 ## Project Management
 
@@ -86,4 +83,4 @@ Here is the main package and configuration set in this Emacs config :
 
 ## Theming
 
-* Monokai
+* atom-one-dark
