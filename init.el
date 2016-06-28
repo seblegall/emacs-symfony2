@@ -34,7 +34,8 @@
 ;; -----------
 
 (global-set-key (kbd "C-c C-t") 'neotree-toggle) ; Ctrl+c Ctrl+t
-(global-set-key (kbd "C-c f") 'projectile-grep) ; Ctrl+c Ctrl+f
+(global-set-key (kbd "C-c f") 'projectile-grep) ; Ctrl+c f
+(global-set-key (kbd "C-x g") 'magit-status) ; Ctrl+x g
 
 ;;THEME CONFIGURATION
 ;;--------------------
