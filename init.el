@@ -34,6 +34,7 @@
 ;; -----------
 
 (global-set-key (kbd "C-c C-t") 'neotree-toggle) ; Ctrl+c Ctrl+t
+(global-set-key (kbd "C-c f") 'projectile-grep) ; Ctrl+c Ctrl+f
 
 ;;THEME CONFIGURATION
 ;;--------------------
@@ -178,3 +179,5 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+
